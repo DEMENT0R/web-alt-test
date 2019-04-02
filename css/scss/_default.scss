@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif');
+
+* {
+	font-family: 'Noto Serif', serif;
+	//font-family: 'Noto Sans', sans-serif;
+}
+
+body {
+	width: 100%;
+	padding: 5px;
+	//overflow: hidden;
+}
+
+section {
+
+}
+
+// Header title block
+.main-title {
+	height: 61px;
+}
+
+.main-title__title {
+    text-transform: uppercase;
+	padding-left: 15px;
+    padding-top: 12px;
+    font-size: 26px;
+}
+
+.main-title__h-line {
+	border-bottom: 2px solid #333;
+    margin-top: 39px;
+    margin-left: 8px;
+    margin-right: 0px;
+}
+
+// Header main image block
+.main-image__date-block {
+	position: relative;
+    top: 6px;
+    left: 6px;
+    height: 53px;
+    width: 80px;
+    padding-top: 5px;
+    padding-left: 0;
+    background-color: rgba(256, 256, 256, 1);
+}
+
+.main-image__date-block_day {
+	display: block;
+    font-size: 17px;
+}
+
+.main-image__date-block_month {
+	display: block;
+	font-size: 14px;
+    margin-top: -4px;
+}
+
+//Pictures 1 block
+.pic-1-block {
+	padding: 3px 13px;
+}
+
+.pic-1-block__image-block {
+	overflow: hidden;
+	padding: 1.5px;
+}
+
+.pic-1-block__image-pic {
+	width: 100%;
+}
