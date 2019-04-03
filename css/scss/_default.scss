@@ -13,7 +13,7 @@ body {
 }
 
 section {
-
+	width: 100%;
 }
 
 // Header title block
@@ -66,8 +66,59 @@ section {
 .pic-1-block__image-block {
 	overflow: hidden;
 	padding: 1.5px;
+    margin-bottom: 1px;
 }
 
 .pic-1-block__image-pic {
 	width: 100%;
+}
+
+// Pictures block
+
+.pic-image__date-block_day {
+	display: block;
+    font-size: 18px;
+    margin-top: 4px;
+}
+
+.pic-image__date-block_month {
+    display: block;
+    font-size: 14px;
+    margin-top: -5px;
+    margin-left: -8px;
+}
+
+// Pagination
+
+.pagination-list {
+	padding: 0;
+    padding-top: 13px;
+    //margin-top: 19px;
+}
+
+.pagination-list__item {
+    display: inline-block;
+    padding: 4px 10px;
+    margin: 0;
+    height: 33px;
+    width: 30px;
+    text-align: center;
+}
+
+.pagination-list__item.active, .pagination-list__item::hover {
+    background-color: #DDDDDD;
+    padding: 4px 10px;
+    height: 33px;
+    width: 33px;
+    border-radius: 100px;
+}
+
+.pagination-list__item.next {
+    margin-left: 12px;
+}
+
+.pagination-list__item a {
+    color: #333;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 13px;
 }
