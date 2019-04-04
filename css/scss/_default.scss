@@ -1,6 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans');
 @import url('https://fonts.googleapis.com/css?family=Noto+Serif');
 
+.only-320-block {
+    display: block;
+}
+.only-480-block {
+    display: none;
+}
+.only-768-block {
+    display: none;
+}
+
 * {
 	font-family: 'Noto Serif', serif;
 	//font-family: 'Noto Sans', sans-serif;
