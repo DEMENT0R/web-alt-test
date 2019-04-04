@@ -120,20 +120,25 @@ section {
     padding: 4px 10px;
     margin: 0;
     height: 33px;
-    width: 30px;
+    width: 33px;
     text-align: center;
 }
 
-.pagination-list__item.active, .pagination-list__item::hover {
+.pagination-list__item-active, .pagination-list__item:hover {
     background-color: #DDDDDD;
     padding: 4px 10px;
+    margin: 0;
     height: 33px;
     width: 33px;
     border-radius: 100px;
+    text-align: center;
 }
 
 .pagination-list__item.next {
     margin-left: 12px;
+}
+.pagination-list__item.next:hover {
+    width: auto;
 }
 
 .pagination-list__item a {
